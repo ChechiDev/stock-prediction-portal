@@ -1,0 +1,21 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body {
+  background-color: #212529;
+}
+
+.container {
+  flex: 1;
+}
+
+.bg-light-dark {
+  background-color: #2b3035;
+}
+
+.rounded {
+  border-radius: 0.5rem;
+}
