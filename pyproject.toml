@@ -9,5 +9,6 @@ dependencies = []
 [dependency-groups]
 dev = [
     "django>=5.2.7",
+    "djangorestframework>=3.16.1",
     "python-decouple>=3.8",
 ]
