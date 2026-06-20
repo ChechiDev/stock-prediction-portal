@@ -1,14 +1,28 @@
 [project]
 name = "stock-prediction-project"
 version = "0.1.0"
-description = "Add your description here"
+description = "Stock market prediction app powered by Deep Learning and Django REST API"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
-
-[dependency-groups]
-dev = [
+authors = [
+	{name = "ChechiDev", email = "chechidatadev@gmail.com"}
+]
+dependencies = [
     "django>=5.2.7",
+    "django-cors-headers==4.9.0",
     "djangorestframework>=3.16.1",
     "python-decouple>=3.8",
+]
+
+[dependency-groups]
+dev = []
+lint = [
+    "ruff>=0.15.18",
+]
+prod = [
+    "gunicorn>=26.0.0",
+]
+test = [
+    "pytest>=9.1.1",
+    "pytest-django>=4.12.0",
 ]
