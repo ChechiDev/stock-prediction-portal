@@ -15,7 +15,11 @@ const Main = () => {
             moving averages, essential indicators widely used by stock analysts
             to inform trading and investmente decisions.
           </p>
-          <Button text="Login" class="btn-outline-info" />
+          <Button
+            text="Explore Now"
+            class="btn-outline-info"
+            url="/dashboard"
+          />
         </div>
       </div>
     </>
