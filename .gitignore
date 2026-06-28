@@ -145,3 +145,6 @@ sketch
 
 # Jupyter Notebook
 *learning*
+.ipynb_checkpoints/
+
+
